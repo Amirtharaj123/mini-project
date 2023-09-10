@@ -1,0 +1,47 @@
+body{
+    margin-left:100px;
+    margin-right:100px;
+    min-width:550px;
+}
+#section{
+ border:thin solid red;
+ background-color:yellow;
+ overflow:auto;
+}
+#section1{
+width:20%;
+float:left;
+}
+#section2{
+width:50%;
+padding-left:25px;
+float:left;
+}
+#section3{
+width:20%;
+float:left;
+}
+#service1,#service2,#service3{
+    width:30%;
+    padding-right:5px;
+    border:thin solid red;
+    float:left;
+    text-align:center;
+}
+label{
+    font-size:20px;
+}
+#name,#email,#subject{
+    width:300px;
+    height:30px;
+}
+#message{
+    width:400px;
+    height:100px;
+}
+#form{
+    width:50%;
+    float:left;
+    padding-right:150px;
+}
+
