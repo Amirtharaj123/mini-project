@@ -1,0 +1,54 @@
+.full{
+    margin:200px;
+    text-align: center;
+}
+body{
+    background-color:grey;
+}
+span{
+    border:thin solid #0ae6ba;
+    ;
+    padding:0 100px;
+    padding-top:5px;
+    font-size:30px;
+    color:white;
+    background-color:#16a085;
+    border-radius:10px 10px 0 0;
+}
+.response{
+    border:thin solid none;
+    margin:0 290px;
+    padding:10px 0 100px 0;
+    background-color:goldenrod;
+    border-radius:0 0 10px 10px;
+}
+.email{
+    padding: 10px 0;
+    font-size:20px;
+    box-shadow:blue;
+}
+.password{
+    padding:0 10px;
+    font-size:20px;
+    box-shadow:blue;
+}
+.forget{
+    padding:10px 0 0 0;
+    text-decoration:none;
+}
+.forget a:hover{
+   color:red;
+   text-decoration:none;
+}
+.login{
+    font-size:30px;
+    box-shadow:blue;
+}
+.signup{
+    padding:20px 0 0 0;
+}
+.signup a:hover{
+    color:red;
+    text-decoration:none;
+}
+
