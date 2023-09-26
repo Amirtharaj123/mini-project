@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>style.com</title>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <style>
+            *{
+                padding:0;
+                margin:0;
+                font-style:none;
+                text-decoration:none;
+                color:green;
+             }
+             body{
+              background-image:url('https://cdn.wallpapersafari.com/69/61/bLYIQA.jpg');
+              background-repeat:no-repeat;
+              background-size:cover;
+             }
+            nav{
+               background-color: blue;
+               width:100%;
+               height:70px;
+             }
+            .logo{
+               color:white;
+               font-size:33px;
+               font-weight: bold;
+               line-height:70px;
+              padding:0 100px;
+             }
+             nav ul{
+               float:right;
+               padding-right:35px;
+             }
+            nav ul li{
+              display:inline;
+             line-height:70px;
+            font-size:22px;
+            }
+         nav ul li a{
+           color:white;
+          padding-left:15px;
+            text-transform:uppercase;
+        }
+          .checkbtn i{
+            font-size:30px;
+             color:white;
+             float:right;
+             line-height:70px;
+             margin-right:40px;
+             cursor:pointer;
+          }
+          #check{
+            display:none;
+          }
+          @media (max-width:858px){
+            label.logo{
+                font-size:26px;
+                font-weight:bold;
+                padding-left:40px;
+            }
+            ul{
+                position:fixed;
+                width:100%;
+                height:100%;
+                top:75px;
+                left:-200%;
+                background:#2c3e50;
+                text-align:center;
+                transition:all -5s;
+            }
+            nav ul li{
+                display:block;
+            }
+            nav ul li a{
+                font-size:20px;
+            }
+            a:hover,a.active{
+                color:#0082e6;
+            }
+            #check:checked ~ ul{
+                left:0;
+            }
+          }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <label class="logo">STYLE</label>
+           <ul>
+              <li><a class="home" href="#">home</a></li>
+              <li><a class="about" href="#">about</a></li>
+              <li><a class="service" href="#">services</a></li>
+              <li><a class="contact" href="#">contact</a></li>
+              <li><a class="feedback" href="#">feedback</a></li>
+           </ul>
+        </nav>
+    </body>
+</html>
